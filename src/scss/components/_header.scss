@@ -1,0 +1,50 @@
+@import '../variables';
+
+.header {
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0;
+  @media (max-width: 645px) {
+    padding: 10px 0;
+ }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 645px) {
+      flex-direction: column-reverse;
+   }
+  }
+
+  &__logo {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    /* Tablet */
+    @media (max-width: 645px) {
+       font-size: 12px;
+       h1{
+        text-align: center;
+       }
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 24px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      color: #7b7b7b;
+    }
+  }
+  &__cart{
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+}
