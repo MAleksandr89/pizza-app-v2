@@ -9,7 +9,7 @@ const Reliz = () => {
 
       <p>For test('should first', () => { second })</p>
       <a href="dfsdfvsd"></a>
-      <div>bla bla bla</div>
+
       </div>
     </>
   );
