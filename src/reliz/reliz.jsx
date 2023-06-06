@@ -6,12 +6,6 @@ const Reliz = () => {
         ноября.
       </p>
       <div>
-
-      <p>For test('should first', () => { second })</p>
-      <a href="dfsdfvsd"></a>
-      <div>
-        New DIVDIVDIV
-      </div>
       </div>
     </>
   );
